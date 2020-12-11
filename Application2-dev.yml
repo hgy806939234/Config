@@ -6,6 +6,8 @@ spring:
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding-utr-8&useSSL=false
     username: root
     password: root
-  
-  
+ eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8071/eureka/,http://localhost:8070/eureka/
 
